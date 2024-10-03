@@ -74,7 +74,8 @@ svg {
 .controls button {
   padding: 1rem;
   border: none;
-  background: rgb(187, 186, 186);
+
+  background: rgb(138, 136, 136);
   color: white;
   font-size: 1rem;
   cursor: pointer;
@@ -87,15 +88,21 @@ svg {
 .play {
   padding: 1rem 2rem;
   font-size: 1.5rem;
-  background-color: rgb(207, 148, 37);
+  background-color: rgb(30, 214, 55);
   color: white;
   border: none;
   cursor: pointer;
   margin-top: 3rem;
 }
+.play.active {
+  background: rgb(243, 77, 55);
+}
 select {
   padding: 1rem;
   font-size: 1rem;
+}
+.mute.active {
+  background: rgb(187, 186, 186);
 }
 @keyframes playTrack {
   from {
